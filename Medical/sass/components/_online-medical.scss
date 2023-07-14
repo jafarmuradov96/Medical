@@ -1,0 +1,111 @@
+.online-medical {
+    max-width: 121rem;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 12rem;
+
+    &__caption {
+        // margin-top: 22.1rem;
+        h1 {
+            font-weight: 700;
+            font-size: 4.8rem;
+            line-height: 6.4rem;
+            color: var(--text-primary);
+            margin-bottom: 2.4rem;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 2.2rem;
+            line-height: 3.3rem;
+            color: var(--text-primary);
+            margin-bottom: 2.4rem;
+            padding-right: 10rem;
+        }
+    }
+
+    &__form {
+        
+        
+        &__search-wrapper  {
+            justify-content: space-between;
+            box-shadow: 0px 3px 2rem 5px rgba(0, 0, 0, 0.04);
+            background: var(--paper-light); 
+            padding: 1.6rem 1.9rem 1.5rem 4.3rem;
+            width: 108%;
+            border-radius: 9.5rem;
+            position: relative;
+            z-index: 1;
+
+            input{
+                border: none;
+                background: var(--paper-light);
+                color: var(--text-primary);
+                font-size: 2rem;
+                // padding-left: 4.3rem;
+            
+
+            &:focus {
+                outline: none;
+            }
+
+            &::placeholder {
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+                color: var(--text-disabled);
+                
+                // padding-left: 4.3rem;
+
+            }
+            }
+
+            button {
+                position: relative;
+                padding: 1.3rem 4.9rem 1.4rem 4.9rem;
+                
+            }
+            
+            
+        }
+    }
+
+    &__right {
+        position: relative;
+
+        &__dots {
+         position: absolute;
+         right: 89%;
+         top: 12%;
+
+        }
+
+
+        &__video {
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-top-right-radius: 50%;
+            
+            
+        }
+
+        a {
+            transition: all 0.5s;
+            &:hover {
+                
+                .online-medical__icon-play {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &__icon-play {
+        position: absolute;
+        display: none;
+        top: 33%;
+        left: 35%;
+        // z-index: 1;
+    }
+
+}

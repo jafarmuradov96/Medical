@@ -1,0 +1,212 @@
+.speciality {
+    gap: 10.4rem;
+    transform: translateY(-35rem);
+    align-items: center;
+
+        
+
+        &__circle {
+            position: relative;
+            border: 1px solid var(--color-primary-main);
+            border-radius: 50%;
+            padding: 8.5rem 8.8rem 9rem 8.8rem;
+            margin-left: 4.9rem;
+
+
+
+            &__medkit {
+                @include speciality-img-position;
+                padding: 1.9rem 1.8rem 2.4rem 1.95rem;
+                background: #4CAF50;
+                border: 4px solid #FFFFFF;
+                top: -3rem;
+                left: 25rem;
+            }
+
+            &__heart {
+                @include speciality-img-position;
+                padding: 0.5rem 0.55rem;
+                background: #F42E88;
+                border: 4px solid #FFFFFF;
+                top: 12rem;
+                left: 52rem;
+
+            }
+
+            &__contacts {
+                @include speciality-img-position;
+                padding: 0.7rem 0.6rem;
+                background: #F42E88;
+                border: 4px solid #FFFFFF;
+                bottom: 7.5rem;
+                left: 4rem;
+            }
+
+            &__flask-bubbles {
+                @include speciality-img-position;
+                padding: 2rem 2.2rem 2rem 2rem;
+                background: #03ACF2;
+                border: 4px solid #FFFFFF;
+                top: 10rem;
+                left: 0;
+            }
+        
+
+            &__small {
+                border: 1px solid var(--color-primary-main);
+                border-radius: 50%;
+                padding: 5.5rem 5.2rem 5rem 5.2rem;
+
+
+                &__ios-rose {
+                    @include speciality-img-position;
+                    padding: 0.35rem 0.85rem;
+                    background: #03ACF2;
+                    border: 4px solid #FFFFFF;
+                    top: 26rem;
+                    left: 47rem;
+
+                }
+
+                &__ios-pulse {
+                    @include speciality-img-position;
+                    padding: 1.75rem 1.45rem;
+                    background: #F42E88;
+                    border: 8px solid #FFFFFF;
+                    bottom: 3rem;
+                    left: 35rem;
+
+                }
+
+
+                &__waves {
+                    @include speciality-img-position;
+                    padding: 1.35rem 0.95rem;
+                    background: #4CAF50;
+                    border: 4px solid #FFFFFF;
+                    bottom: 14rem;
+                    left: 10rem;
+                }
+                
+            }
+
+            &__title {
+                width: 29.6rem;
+                height: 29.6rem;
+                padding: 8rem 2.5rem 9.3rem 2.5rem;
+                background: #03ACF2;
+                border-radius: 50%;
+            
+            }
+        }
+
+    
+    &__content {
+        flex-direction: column;
+        gap: 4.8rem;
+
+        &__title{
+            padding-right: 28rem;
+            h4 {
+                font-weight: 700;
+                font-size: 2.8rem;
+                line-height: 4.2rem;
+                color: var(--section-title-color);
+
+            }
+        }
+        &__text {
+            padding-right: 18rem;
+            p {
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: var(--text-primary);
+            }
+
+        }
+        &__btns {
+            flex-direction: column;
+            gap: 1.6rem;
+
+            &__list {
+                gap: 1.6rem;
+
+                button {
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    text-align: center;
+                    border: 1px solid var(--color-btns-border);
+                    border-radius: 15px;    
+                }
+    
+            }
+          
+        }
+    }
+
+}
+
+
+.dentist {
+padding: 0.6rem 4.2rem;
+background: var(--color-mode);
+color: var(--text-primary);
+
+}
+
+.padriatic {
+padding: 0.6rem 4.7rem;
+background: var(--color-mode);
+color: var(--text-primary);
+
+}
+
+.cardiology {
+    padding: 0.6rem 5.6rem;
+    background: var(--color-mode);
+    color: var(--text-primary);
+
+
+}
+
+.traumatologi {
+    padding: 0.6rem 4rem;
+    background: #03ACF2;
+    color: #FFFFFF;
+}
+
+.othopaedi {
+    padding: 0.6rem 2.9rem;
+    background: #03ACF2;
+    color: #FFFFFF;
+}
+
+.anestesiologi {
+    padding: 0.6rem 4.3rem;
+    background: #03ACF2;
+    color: #FFFFFF;
+}
+
+.reumatologi {
+    padding: 0.6rem 3.2rem;
+    background: var(--color-mode);
+    color: var(--text-primary);
+
+}
+
+.andrologi {
+    padding: 0.6rem 3.7rem;
+    background: var(--color-mode);
+    color: var(--text-primary);
+
+
+}
+
+.ortodonsia {
+    padding: 0.6rem 5.65rem;
+    background: var(--color-mode);
+    color: var(--text-primary);
+
+}

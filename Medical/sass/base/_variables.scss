@@ -1,0 +1,86 @@
+
+:root {
+--color-mode: #ffffff;
+--color-primary-main: #03ACF2;
+--color-primary-light: #B3E5FC;
+--color-primary-dark:  #00579b;
+--color-primary-darkness:  #0D47A1;
+--color-secondary-main: #4CAF50;
+--color-secondary-light: #C8E6C9;
+--color-secondary-dark: #357A38;
+--paper-light: #FFFFFF;
+--paper-dark: #424242;
+--default-light: #fafafa; 
+--default-dark: #303030;
+--text-primary: rgba(0, 0, 0, 0.87);
+--text-secondary: rgba(0, 0, 0, 0.54);
+--text-disabled: rgba(0, 0, 0, 0.38);
+--text-field: rgba(0, 0, 0, 0.42);
+--text-third: rgba(0, 0, 0, 0.27);
+--fill-svg-main: rgba(0, 0, 0, 1);
+--color-border-left: #D8D8D8;
+--color-arrow: #00579b;
+--color-heading-secondary: #00579B;
+--section-title-color: rgba(0, 0, 0, 0.87);
+--color-btns-border: rgba(0, 0, 0, 0.12);
+--text-fourth: rgba(0, 0, 0, 0.54);
+--color-footer-main: #03ACF2;
+--color-footer-text: rgba(0, 0, 0, 0.54);
+
+}
+
+.light-mode {
+    --color-mode: #ffffff;
+    --color-primary-main: #03ACF2;
+    --color-primary-light: #B3E5FC;
+    --color-primary-dark:  #00579b;
+    --color-primary-darkness:  #0D47A1;
+    --color-secondary-main: #4CAF50;
+    --color-secondary-light: #C8E6C9;
+    --color-secondary-dark: #357A38;
+    --paper-light: #FFFFFF;
+    --paper-dark: #424242;
+    --default-light: #fafafa; 
+    --default-dark: #303030;
+    --text-primary: rgba(0, 0, 0, 0.87);
+    --text-secondary: rgba(0, 0, 0, 0.54);
+    --text-disabled: rgba(0, 0, 0, 0.38);
+    --text-field: rgba(0, 0, 0, 0.42);
+    --text-third: rgba(0, 0, 0, 0.27);
+    --fill-svg-main: rgba(0, 0, 0, 1);
+    --color-border-left: #D8D8D8;
+    --color-arrow: #00579b;
+    --color-heading-secondary: #00579B;
+    --section-title-color: rgba(0, 0, 0, 0.87);
+    --color-btns-border: rgba(0, 0, 0, 0.12);
+    --text-fourth: rgba(0, 0, 0, 0.54);
+    --color-footer-main: #03ACF2;
+    --color-footer-text: rgba(0, 0, 0, 0.54);
+
+    
+}
+
+.dark-mode {
+    --color-mode: #303030;
+    --text-primary: #ffffff;
+    --color-primary-darkness: #B3E5FC; 
+    --fill-svg-main: #ffffff;
+    --paper-light: #424242;
+    --text-disabled: rgba(255, 255, 255, 0.7);
+    --color-primary-light: #00579b;
+    --text-third: rgba(255, 255, 255, 0.7);
+    --color-border-left: rgba(0, 0, 0, 0.12);
+    --color-secondary-light: #357A38;
+    --color-secondary-dark: #C8E6C9;
+    --text-secondary: rgba(255, 255, 255, 1);
+    --color-arrow: #B3E5FC;
+    --color-heading-secondary: rgba(255, 255, 255, 1);
+    --color-primary-main: #00579b;
+    --section-title-color: rgba(255, 255, 255, 0.87);
+    --color-btns-border: rgba(255, 255, 255, 0.12);
+    --text-fourth: rgba(255, 255, 255, 0.7);
+    --color-footer-main: #BBDEFB;
+    --color-footer-text: #ffffff;
+
+
+}

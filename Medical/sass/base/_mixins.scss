@@ -1,0 +1,19 @@
+@mixin speciality-img-position {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+}
+
+@mixin our-clinics-span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--text-primary);
+}
+
+@mixin footer-about-span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--color-footer-text);
+}

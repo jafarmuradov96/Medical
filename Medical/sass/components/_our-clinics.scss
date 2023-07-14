@@ -1,0 +1,54 @@
+.our-clinics {
+    margin-top: 15.28rem;
+    justify-content: space-between;
+
+    &__about {
+        flex-direction: column;
+            gap: 4rem;
+
+        &__office {
+            flex-direction: column;
+            gap: 2rem;
+
+            &__name {
+                
+                span {
+                    font-weight: 900;
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                    color: var(--text-primary);
+
+                }
+            }
+
+            &__contact {
+                gap: 11rem;
+
+                &__phone {
+                    gap: 1.2rem;
+
+                    span {
+                        @include our-clinics-span
+                    }
+                }
+
+                &__letter {
+                    gap: 1.2rem;
+                    span {
+                        @include our-clinics-span
+                    }
+                }
+            }
+
+
+
+            &__location {
+                gap: 1.2rem;
+                span {
+                    @include our-clinics-span
+                }
+            }
+        }
+    }
+}
+
